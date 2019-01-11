@@ -33,51 +33,27 @@ else:
 	time.sleep(0.7)
 	print('Scissors')
 
-if user == 'Rock' and comp == 'Rock':
+if user == 'Rock' or 'rock' and comp == 'Rock':
 	print('Go again')
-elif user == 'Rock' and comp == 'Paper':
+elif user == 'Rock' or 'rock' and comp == 'Paper':
 	print('You Lost sorry.')
-elif user == 'Rock' and comp == 'Scissors':
+elif user == 'Rock' or 'rock' and comp == 'Scissors':
 	print('You Won!')
-elif user == 'Paper' and comp == 'Paper':
+elif user == 'Paper' or 'paper' and comp == 'Paper':
 	print('Go again.')
-elif user == 'Paper' and comp == 'Rock':
+elif user == 'Paper' or 'paper' and comp == 'Rock':
 	print('You Won!')
-elif user == 'Paper' and comp == 'Scissors':
+elif user == 'Paper' or 'paper' and comp == 'Scissors':
 	print('You Lost sorry.')
-elif user == 'Scissors' and comp == 'Paper':
+elif user == 'Scissors' or 'scissors' and comp == 'Paper':
 	print('You Won!')
-elif user == 'Scissors' and comp == 'Rock':
+elif user == 'Scissors' or 'scissors' and comp == 'Rock':
 	print('You Lost sorry.')
-elif user == 'rock' and comp == 'Rock':
-	print('Go again')
-elif user == 'rock' and comp == 'Paper':
+elif user == 'Scissors'  or 'scissors' and comp == 'Gun':
 	print('You Lost sorry.')
-elif user == 'rock' and comp == 'Scissors':
-	print('You Won!')
-elif user == 'paper' and comp == 'Paper':
-	print('Go again.')
-elif user == 'paper' and comp == 'Rock':
-	print('You Won!')
-elif user == 'paper' and comp == 'Scissors':
+elif user == 'Rock' or 'rock' and comp == 'Gun':
 	print('You Lost sorry.')
-elif user == 'scissors' and comp == 'Paper':
-	print('You Won!')
-elif user == 'scissors' and comp == 'Rock':
-	print('You Lost sorry.')
-elif user == 'scissors' and comp == 'Scissors':
-	print('Go again')
-elif user == 'Scissors' and comp == 'Gun':
-	print('You Lost sorry.')
-elif user == 'Rock' and comp == 'Gun':
-	print('You Lost sorry.')
-elif user == 'Paper' and comp == 'Gun':
-	print('You Lost sorry.')
-elif user == 'scissors' and comp == 'Gun':
-	print('You Lost sorry.')
-elif user == 'rock' and comp == 'Gun':
-	print('You Lost sorry.')
-elif user == 'paper' and comp == 'Gun':
+elif user == 'Paper' or 'paper' and comp == 'Gun':
 	print('You Lost sorry.')
 else:
 	print('Go again')
